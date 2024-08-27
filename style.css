@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    background-color: #ccc;
+    color_font: black;
+}
+
+body{
+    background: darkgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+#container-cabecalho{
+    padding: 15px;
+    background: darkslategrey;
+    text-align: center;
+}
+
+#container-logo, #container-menu{
+  padding: 10px;
+}
+
+
+
+h1{
+    font-size: 2.5rem;
+    color: var(color_font);
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+    padding: 5px;
+    background: white;
+}
+
+.blog{
+    color: white;
+}
+
+a{
+    color: wheat;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: black;
+    background: darkgray;
+}
+
+/* Parte 2 */
+
+#area-principal{
+    margin: 0 auto;
+    width: 920px;
+    padding: 15px;
+}
+
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: crimson;
+}
+
+img{
+    width: 620px;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    background: cornflowerblue;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: brown;
+}
+
+.data{
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid violet;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#conteudo-lateral {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: black;
+}
+
+.postagem-lateral{
+    font-size: 0.8rem;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+#rodape {
+  padding: 15px;
+  margin: 15px;
+  
+}
