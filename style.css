@@ -4,8 +4,8 @@
 }
 
 :root{
-    background-color: #ccc;
-    color_font: black;
+    /*inserir cores fixas aqui para usar como variaveis*/
+    --background_padrao: #ccc;
 }
 
 body{
@@ -28,7 +28,7 @@ body{
 
 h1{
     font-size: 2.5rem;
-    color: var(color_font);
+    color: black;
 }
 
 h2{
