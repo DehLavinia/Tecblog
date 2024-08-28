@@ -52,8 +52,7 @@ a{
 }
 
 a:hover {
-    color: black;
-    background: darkgray;
+    color: white;
 }
 
 /* Parte 2 */
@@ -72,7 +71,7 @@ a:hover {
 .postagem{
     padding: 20px;
     margin-bottom: 20px;
-    background: crimson;
+    background: #20B2AA;
 }
 
 img{
@@ -89,7 +88,7 @@ img{
     clear: both;
     text-align: center;
     padding: 15px;
-    background: brown;
+    background: #20B2AA;
 }
 
 .data{
